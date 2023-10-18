@@ -42,22 +42,26 @@ body {
   border-radius: 10%;
   font-family: 'Roboto', 'sans-serif';
 }
-.logo { 
-  
-}  
+
 .name {
-  margin-bottom: 20px;
   font-weight: 400;
   text-transform: uppercase;
   font-size: 30px;
   
 }
+.title { 
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 10px;
+  
+}  
 .phrase {  
   margin-bottom: 10px;
-  font-weight: 100;
+  font-weight: 300;
   }
 .biography { 
-  font-weight: 100;
+  font-weight: 300;
   }
 .buttons {
   background-color: rgba(0, 0, 0, 0.3);
