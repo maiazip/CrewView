@@ -14,8 +14,8 @@ body {
   min-height: 100vh;
   width: 80vw;
   background: linear-gradient(-233deg, #000 10%, rgba(0, 0, 0, 0) 65%) no-repeat;
-
 }
+
 .character {
   display: none;
 }
@@ -116,12 +116,4 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-}
-
-a {
-  text-decoration: none;
-}
-a:visited {
-  color: snow;
-  text-decoration: none;
 }
