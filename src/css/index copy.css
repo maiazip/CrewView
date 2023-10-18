@@ -48,13 +48,6 @@ y
   font-weight: 400;
   margin-bottom: 20px;
 }
-  .informations .phrase { 
-    margin-bottom: 20px;
-  }
-  
-  .informations .biography { 
-    margin-bottom: 20px;
-  }
 
   .informations .logo {
     background-image: url(/src/assets/index/logoImage.png);
@@ -64,35 +57,3 @@ y
     width: 200px;
     margin-bottom: 20px;
   }  
-
-.buttons {
-  position: fixed;
-  top: 0;
-  right: 0;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  width: 180px;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-.buttons .button {
-  border: none;
-  background: none;
-  cursor: pointer;
-  border-radius: 50%;
-}
-
-.buttons .button img {
-  width: 90px;
-  height: 86px;
-  border-radius: 50%;
-}
-
-.buttons .button.selected {
-  transform: scale(1.2);
-  box-shadow: 0 0 10px #D9D9D9;
-}
