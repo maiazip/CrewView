@@ -1,0 +1,288 @@
+
+@media (max-width:1475px) and (min-width:1026px) {
+  .mainContent::after {
+    width: 100vw;
+  }
+}
+@media (max-width:1025px) and (min-width:769px) {
+  .mainContent::after {
+    background: none;
+  }
+
+  .background {
+    height: 50vh;
+  }
+
+  .informations {
+    top: 45vh;
+    max-width: 100vw;
+  }
+
+  .name {
+    font-size: 24px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .phrase, .biography {
+    font-size: 16px;
+  }
+
+  .buttons {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    left: 0;
+    top: 90vh;
+  }
+  .button {
+    width: 64px;
+    height: 64px;
+  }
+
+  .button img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width:769px) and (min-width:427px) {
+
+  .mainContent::after {
+    background: none;
+  }
+  
+  .background {
+    height: 40vh;
+  }
+
+  .informations {
+    top: 40vh;
+    max-width: 100vw;
+  }
+
+  .name {
+    font-size: 24px;
+  }
+  
+  .title {
+    font-size: 20px;
+  }
+  
+  .phrase, .biography {
+    font-size: 18px;
+  }
+
+  .buttons {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    left: 0;
+    top: 90vh;
+  }
+
+  .button {
+    width: 54px;
+    height: 54px;
+  }
+
+  .button img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .button.selected {
+    transform: scale(1.1);
+    border: 2px solid #e9e9e9;
+    box-shadow: 0 0 4px #D9D9D9;
+  }
+
+  .button:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 5px #D9D9D9;
+  }
+  
+}
+
+@media (max-width:426px) and (min-width:323px) {
+  .mainContent::after {
+    background: none;
+  }
+
+  .background {
+    height: 30vh;
+  }
+
+  .informations {
+    top: 30vh;
+  }
+
+.name {
+  font-size: 20px;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.phrase, .biography {
+  font-size: 15px;
+}
+
+  .buttons {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    left: 0;
+    top: 90vh;
+  }
+
+  .button {
+    width: 44px;
+    height: 44px;
+  }
+
+  .button img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .button.selected {
+    transform: scale(1.1);
+    border: 2px solid #e9e9e9;
+    box-shadow: 0 0 4px #D9D9D9;
+  }
+
+  .button:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 5px #D9D9D9;
+  }
+}
+
+@media (max-width:376px) and (min-width:322px) {
+
+  .mainContent::after {
+    background: none;
+  }
+
+  .background {
+    height: 30vh;
+  }
+
+  .informations {
+    top: 30vh;
+  }
+.name {
+  font-size: 18px;
+}
+
+.title {
+  font-size: 1;
+}
+
+.phrase, .biography {
+  font-size: 14px;
+}
+
+  .buttons {
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    left: 0;
+    top: 94vh;
+  }
+
+  .button {
+    width: 34px;
+    height: 34px;
+  }
+
+  .button img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .button.selected {
+    transform: scale(1.1);
+    border: 2px solid #e9e9e9;
+    box-shadow: 0 0 4px #D9D9D9;
+  }
+
+  .button:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 5px #D9D9D9;
+  }
+
+}
+
+@media (max-width: 321px){
+
+  .mainContent::after {
+    background: none; }
+
+  .background {
+    height: 20vh;
+  }
+
+  .informations {
+    top: 20vh;
+  }
+
+.name {
+  font-size: 20px;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.phrase, .biography {
+  font-size: 14px;
+}
+
+  .buttons {
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    left: 0;
+    top: 95vh;
+  }
+
+  .button {
+    width: 29px;
+    height: 29px;
+  }
+
+  .button img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .button.selected {
+    transform: scale(1.1);
+    border: 2px solid #e9e9e9;
+    box-shadow: 0 0 4px #D9D9D9;
+  }
+
+  .button:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 5px #D9D9D9;
+  }
+}
