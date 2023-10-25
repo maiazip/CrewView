@@ -52,9 +52,6 @@
 }
 
 @media (max-width:769px) and (min-width:427px) {
-  html, body {
-    overflow: scroll;
-  }
 
   .mainContent::after {
     background: none;
@@ -116,9 +113,6 @@
 }
 
 @media (max-width:426px) and (min-width:323px) {
-  html, body {
-    overflow: scroll;
-  }
   .mainContent::after {
     background: none;
   }
@@ -177,9 +171,7 @@
 }
 
 @media (max-width:376px) and (min-width:322px) {
-  html, body {
-    overflow: scroll;
-  }
+
   .mainContent::after {
     background: none;
   }
@@ -238,9 +230,7 @@
 }
 
 @media (max-width: 321px){
-  html, body {
-    overflow: scroll;
-  }
+
   .mainContent::after {
     background: none; }
 
